@@ -171,6 +171,7 @@ module Nomad
         }
       },
       protocol_version: { kind_of: String },
+      raft_protocol: { kind_of: Integer },
       rejoin_after_leave: { kind_of: [TrueClass, FalseClass] },
       retry_join: { kind_of: Array },
       retry_interval: { kind_of: String },
